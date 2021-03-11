@@ -9,7 +9,7 @@
     "start": "nodemon index.js",
     "dev": "concurrently \"npm run start\" \"npm run client\"",
     "build:ui":"rm -rf build && cd ../checkers-client && npm run build --prod && cp -r build ../checkers-api",
-    "deploy": "git push heroku master",
+    "deploy": "git push heroku main",
     "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",
     "logs:prod": "heroku logs --tail"
   },
