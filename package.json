@@ -5,9 +5,13 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "client": "cd .. && cd checkers-client @@ npm run start",
+    "client": "cd ../checkers-client && npm run start",
     "start": "nodemon index.js",
-    "dev": "concurrently \"npm run start\" \"npm run client\""
+    "dev": "concurrently \"npm run start\" \"npm run client\"",
+    "build:ui":"rm -rf build && cd ../checkers-client && npm run build --prod && cp -r build ../checkers-api",
+    "deploy": "git push heroku master",
+    "deploy:full": "npm run build:ui && git add . && git commit -m uibuild && git push && npm run deploy",
+    "logs:prod": "heroku logs --tail"
   },
   "author": "Nicholas Prendergast",
   "license": "ISC",
