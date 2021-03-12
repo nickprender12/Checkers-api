@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.af4c2b90.chunk.css",
+    "main.js": "/static/js/main.6a6d9ac5.chunk.js",
+    "main.js.map": "/static/js/main.6a6d9ac5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1fd230b2.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1fd230b2.js.map",
+    "static/js/2.7a28db46.chunk.js": "/static/js/2.7a28db46.chunk.js",
+    "static/js/2.7a28db46.chunk.js.map": "/static/js/2.7a28db46.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.af4c2b90.chunk.css.map": "/static/css/main.af4c2b90.chunk.css.map",
+    "static/js/2.7a28db46.chunk.js.LICENSE.txt": "/static/js/2.7a28db46.chunk.js.LICENSE.txt",
+    "static/media/Logo.3c92d42d.svg": "/static/media/Logo.3c92d42d.svg",
+    "static/media/github.04be58c1.svg": "/static/media/github.04be58c1.svg",
+    "static/media/linkedinIcon.27a3f479.svg": "/static/media/linkedinIcon.27a3f479.svg",
+    "static/media/App.css": "/static/media/macos-big-sur-apple-layers-fluidic-colorful-wwdc-stock-2020-4096x2304-1455-small.e18c1498.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fd230b2.js",
+    "static/js/2.7a28db46.chunk.js",
+    "static/css/main.af4c2b90.chunk.css",
+    "static/js/main.6a6d9ac5.chunk.js"
+  ]
+}
